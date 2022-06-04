@@ -26,3 +26,4 @@ sudo apt update -y
 sudo apt install fish
 fish
 chsh -s /usr/bin/fish
+sudo logout
