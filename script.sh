@@ -20,6 +20,7 @@ flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.
 flatpak install flathub-beta net.lutris.Lutris
 sudo apt remove hypnotix -y
 sudo apt remove warpinator -y
+#next follow this guide https://youtu.be/OmUpLNsWgC4
 #BetterTerminal
 sudo add-apt-repository ppa:fish-shell/release-3 -y
 sudo apt update -y
