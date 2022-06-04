@@ -8,7 +8,7 @@ sudo apt install kdeconnect indicator-kdeconnect -y
 sudo apt-get remove --purge libreoffice* -y
 flatpak install flathub org.onlyoffice.desktopeditors
 sudo apt install steam
-sudo apt remove Transmission
+sudo apt remove transmission-gtk
 flatpak install flathub org.qbittorrent.qBittorrent
 flatpak install flathub fr.handbrake.ghb
 flatpak install flathub com.obsproject.Studio
@@ -18,6 +18,11 @@ flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatp
 flatpak update --appstream
 flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default
 flatpak install flathub-beta net.lutris.Lutris
-sudo apt remove hypnotix
-sudo apt remove warpinator
-
+sudo apt remove hypnotix -y
+sudo apt remove warpinator -y
+#BetterTerminal
+sudo add-apt-repository ppa:fish-shell/release-3 -y
+sudo apt update -y
+sudo apt install fish
+fish
+chsh -s /usr/bin/fish
