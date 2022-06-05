@@ -12,7 +12,7 @@ sudo apt remove transmission-gtk
 flatpak install flathub org.qbittorrent.qBittorrent
 flatpak install flathub fr.handbrake.ghb
 flatpak install flathub com.obsproject.Studio
-sudo apt remove webapps
+sudo apt remove webapp-manager
 #Future me please update this once Flatpack Lutris is out of beta but for now
 flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
 flatpak update --appstream
