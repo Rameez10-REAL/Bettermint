@@ -20,7 +20,8 @@ flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.
 flatpak install flathub-beta net.lutris.Lutris
 sudo apt remove hypnotix -y
 sudo apt remove warpinator -y
-#next follow this guide https://youtu.be/OmUpLNsWgC4
+#next follow this guide to get a better start menu https://youtu.be/OmUpLNsWgC4
+#If you are having issues with audio lagging/stuttering https://forums.linuxmint.com/viewtopic.php?t=326737
 #BetterTerminal
 sudo add-apt-repository ppa:fish-shell/release-3 -y
 sudo apt update -y
