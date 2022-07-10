@@ -21,6 +21,7 @@ mkdir DELETETHISFOLDER
 cd DELETETHISFOLDER
 git clone https://github.com/Rameez10-REAL/PhotoGIMP
 tar -C $HOME -h -xzf PhotoGIMP
+cp -r PhotoGIMP* $HOME
 #If you are having issues with audio lagging/stuttering https://forums.linuxmint.com/viewtopic.php?t=326737 or https://forums.linuxmint.com/viewtopic.php?t=245160
 #Fish Installer
 sudo add-apt-repository ppa:fish-shell/release-3 -y
