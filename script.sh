@@ -1,6 +1,4 @@
 sudo apt remove hexchat -y
-sudo apt install kdeconnect -y
-sudo apt update -y
 xdg-open 'https://extensions.gnome.org/extension/1319/gsconnect/'
 sudo apt-get remove --purge libreoffice* -y
 flatpak install flathub org.onlyoffice.desktopeditors
