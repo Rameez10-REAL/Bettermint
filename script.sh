@@ -1,6 +1,6 @@
 sudo apt remove hexchat -y
 xdg-open 'https://extensions.gnome.org/extension/1319/gsconnect/'
-sudo apt-get remove --purge libreoffice* -y
+sudo apt purge --autoremove libreoffice-common -y
 flatpak install flathub org.onlyoffice.desktopeditors
 sudo apt install steam
 flatpak install flathub fr.handbrake.ghb
