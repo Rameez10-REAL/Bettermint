@@ -19,7 +19,7 @@ xkill
 sudo apt install git -y
 mkdir DELETETHISFOLDER
 cd DELETETHISFOLDER
-git clone https://github.com/Diolinux/PhotoGIMP/releases/download/1.1/PhotoGIMP.by.Diolinux.v2020.1.for.Flatpak.zip
+git clone https://github.com/Rameez10-REAL/PhotoGIMP
 tar -C $HOME -h -xzf PhotoGIMP.by.Diolinux.v2020.1.for.Flatpak.zip
 #If you are having issues with audio lagging/stuttering https://forums.linuxmint.com/viewtopic.php?t=326737 or https://forums.linuxmint.com/viewtopic.php?t=245160
 #Fish Installer
