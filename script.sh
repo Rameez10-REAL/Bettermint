@@ -10,7 +10,8 @@ sudo add-apt-repository ppa:lutris-team/lutris -y
 sudo apt update -y
 sudo apt remove hypnotix -y
 sudo apt remove warpinator -y
-sudo apt remove vlc
+sudo apt remove vlc -y
+sudo apt remove thunderbird -y
 #Photogimp Installer
 flatpak install flathub org.gimp.GIMP
 flatpak run org.gimp.GIMP
